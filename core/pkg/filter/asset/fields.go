@@ -1,7 +1,7 @@
 package asset
 
 import (
-	"github.com/opencost/opencost/core/pkg/filter/fieldstrings"
+	"opencost/core/pkg/filter/fieldstrings"
 )
 
 // AssetField is an enum that represents Asset-specific fields that can be

@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/timeutil"
 )
 
 type CloudCostLoader struct {

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/filemanager"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/filemanager"
 )
 
 type AllocationModel interface {

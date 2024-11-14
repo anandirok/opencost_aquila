@@ -12,8 +12,8 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/log"
+	"opencost/pkg/cloud"
 )
 
 // StorageConnection provides access to Azure Storage

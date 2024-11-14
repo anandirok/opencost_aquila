@@ -11,10 +11,10 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/athena"
 	"github.com/aws/aws-sdk-go-v2/service/athena/types"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/stringutil"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/stringutil"
+	"opencost/pkg/cloud"
 )
 
 type AthenaQuerier struct {

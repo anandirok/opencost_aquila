@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"strings"
 
-	filter "github.com/opencost/opencost/core/pkg/filter/legacy"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/mapper"
+	filter "opencost/core/pkg/filter/legacy"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/mapper"
 )
 
 type CloudCostFilter struct {

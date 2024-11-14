@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util"
 )
 
 var (

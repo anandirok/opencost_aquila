@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/errors"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/env"
+	"opencost/pkg/errors"
 	prometheus "github.com/prometheus/client_golang/api"
 	v1 "github.com/prometheus/client_golang/api/prometheus/v1"
 )

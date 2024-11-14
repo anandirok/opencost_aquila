@@ -3,7 +3,7 @@ package opencost
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/util/cloudutil"
+	"opencost/core/pkg/util/cloudutil"
 )
 
 func TestLabelConfig_Map(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/promutil"
 )
 
 // AssetProperty is a kind of property belonging to an Asset

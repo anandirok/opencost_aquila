@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/collections"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/fileutil"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
-	"github.com/opencost/opencost/core/pkg/version"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/collections"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/fileutil"
+	"opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/version"
+	"opencost/pkg/env"
 
 	golog "log"
 

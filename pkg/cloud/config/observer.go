@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/pkg/cloud"
 )
 
 // Observer should be implemented by any struct which need access to the up-to-date list of active configs

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 )
 
 type StringSlicePropertied interface {

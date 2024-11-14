@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 	"golang.org/x/exp/maps"
 )
 

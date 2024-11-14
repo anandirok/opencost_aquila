@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/pkg/cloud"
 )
 
 const SharedKeyAuthorizerType = "AzureAccessKey"

@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
-	"github.com/opencost/opencost/pkg/cloud"
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/timeutil"
+	"opencost/pkg/cloud"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/env"
 )
 
 const configFile = "cloud-configurations.json"

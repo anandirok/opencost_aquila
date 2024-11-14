@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/util/timeutil"
 )
 
 var ccProperties1 = &CloudCostProperties{

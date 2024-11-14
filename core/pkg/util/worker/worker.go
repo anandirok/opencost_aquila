@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/opencost/opencost/core/pkg/collections"
+	"opencost/core/pkg/collections"
 )
 
 // Runner is a function type that takes a single input and returns nothing.

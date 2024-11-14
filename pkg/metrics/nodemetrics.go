@@ -3,9 +3,9 @@ package metrics
 import (
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
-	"github.com/opencost/opencost/pkg/clustercache"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/promutil"
+	"opencost/pkg/clustercache"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	v1 "k8s.io/api/core/v1"

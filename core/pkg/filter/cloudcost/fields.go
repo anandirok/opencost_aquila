@@ -1,7 +1,7 @@
 package cloudcost
 
 import (
-	"github.com/opencost/opencost/core/pkg/filter/fieldstrings"
+	"opencost/core/pkg/filter/fieldstrings"
 )
 
 // CloudCostField is an enum that represents CloudCost specific fields that can be filtered

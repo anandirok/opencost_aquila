@@ -3,7 +3,7 @@ package plugin
 import (
 	"context"
 
-	"github.com/opencost/opencost/core/pkg/model/pb"
+	"opencost/core/pkg/model/pb"
 )
 
 // GRPCClient is an implementation of CustomCostsSource that talks over RPC.

@@ -1,7 +1,7 @@
 package watcher
 
 import (
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 	v1 "k8s.io/api/core/v1"
 )
 

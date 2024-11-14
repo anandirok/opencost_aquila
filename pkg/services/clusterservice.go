@@ -3,8 +3,8 @@ package services
 import (
 	"path"
 
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/services/clusters"
+	"opencost/pkg/env"
+	"opencost/pkg/services/clusters"
 )
 
 // NewClusterManagerService creates a new HTTPService implementation driving cluster definition management

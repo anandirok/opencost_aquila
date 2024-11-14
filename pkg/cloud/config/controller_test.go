@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	cloudconfig "github.com/opencost/opencost/pkg/cloud"
-	"github.com/opencost/opencost/pkg/cloud/aws"
-	"github.com/opencost/opencost/pkg/cloud/gcp"
+	cloudconfig "opencost/pkg/cloud"
+	"opencost/pkg/cloud/aws"
+	"opencost/pkg/cloud/gcp"
 )
 
 // Baseline valid config

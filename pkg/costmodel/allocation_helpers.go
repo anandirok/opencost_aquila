@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
-	"github.com/opencost/opencost/pkg/cloud/provider"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/timeutil"
+	"opencost/pkg/cloud/provider"
+	"opencost/pkg/env"
+	"opencost/pkg/prom"
 	"k8s.io/apimachinery/pkg/labels"
 )
 

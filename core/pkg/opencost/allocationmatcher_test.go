@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	afilter "github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/ops"
+	afilter "opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ops"
 )
 
 func TestAliasPass(t *testing.T) {

@@ -1,7 +1,7 @@
 package k8sobject
 
 import (
-	"github.com/opencost/opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ast"
 )
 
 // a slice of all the allocation field instances the lexer should recognize as

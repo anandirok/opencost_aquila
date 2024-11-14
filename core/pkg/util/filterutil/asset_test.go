@@ -3,9 +3,9 @@ package filterutil
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/clusters"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/mapper"
+	"opencost/core/pkg/clusters"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/mapper"
 )
 
 var assetCompiler = opencost.NewAssetMatchCompiler()

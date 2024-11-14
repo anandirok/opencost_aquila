@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/julienschmidt/httprouter"
-	proto "github.com/opencost/opencost/core/pkg/protocol"
-	"github.com/opencost/opencost/pkg/cloud"
-	"github.com/opencost/opencost/pkg/cloud/aws"
-	"github.com/opencost/opencost/pkg/cloud/azure"
-	"github.com/opencost/opencost/pkg/cloud/gcp"
+	proto "opencost/core/pkg/protocol"
+	"opencost/pkg/cloud"
+	"opencost/pkg/cloud/aws"
+	"opencost/pkg/cloud/azure"
+	"opencost/pkg/cloud/gcp"
 )
 
 var protocol = proto.HTTP()

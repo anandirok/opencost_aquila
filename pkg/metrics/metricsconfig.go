@@ -7,8 +7,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/opencost/opencost/core/pkg/util/watcher"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/util/watcher"
+	"opencost/pkg/env"
 )
 
 var (

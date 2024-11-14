@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go-v2/service/athena/types"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/cloud"
 )
 
 const LabelColumnPrefix = "resource_tags_user_"

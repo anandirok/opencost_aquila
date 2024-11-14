@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 // pod describes a running pod's start and end time within a Window and

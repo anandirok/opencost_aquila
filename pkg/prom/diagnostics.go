@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/pkg/env"
 	prometheus "github.com/prometheus/client_golang/api"
 )
 

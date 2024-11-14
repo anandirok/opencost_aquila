@@ -4195,7 +4195,7 @@ Copyright (c) 2011, Open Knowledge Foundation Ltd.
 --------------------------------- (separator) ----------------------------------
 
 == Dependency
-github.com/opencost/opencost/core
+opencost/core
 
 == License Type
 SPDX:Apache-2.0

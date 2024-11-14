@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/filter/cloudcost"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/filter/cloudcost"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/httputil"
 )
 
 func TestParseCloudCostRequest(t *testing.T) {

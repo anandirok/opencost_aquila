@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/pkg/env"
+	"opencost/pkg/prom"
 
 	prometheus "github.com/prometheus/client_golang/api"
 )

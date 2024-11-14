@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/promutil"
 )
 
 func TestClusterInfoLabels(t *testing.T) {

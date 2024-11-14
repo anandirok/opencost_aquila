@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
+	"opencost/pkg/prom"
 )
 
 const Ki = 1024

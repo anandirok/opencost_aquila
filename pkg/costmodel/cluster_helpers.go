@@ -4,13 +4,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/cloud/provider"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/provider"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/env"
+	"opencost/pkg/prom"
 )
 
 // mergeTypeMaps takes two maps of (cluster name, node name) -> node type

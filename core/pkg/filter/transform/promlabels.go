@@ -3,7 +3,7 @@ package transform
 import (
 	"regexp"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ast"
 )
 
 // regex for invalid prometheus label characters

@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 	"github.com/pkg/errors"
 )
 

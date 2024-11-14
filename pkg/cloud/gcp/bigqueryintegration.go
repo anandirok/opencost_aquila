@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
 	"google.golang.org/api/iterator"
 )
 

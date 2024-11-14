@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/promutil"
 )
 
 // AllocationProperty represents a specific property on an allocation, which

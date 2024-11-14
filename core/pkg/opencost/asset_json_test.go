@@ -1,7 +1,7 @@
 package opencost
 
 import (
-	"github.com/opencost/opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/json"
 
 	"testing"
 	"time"

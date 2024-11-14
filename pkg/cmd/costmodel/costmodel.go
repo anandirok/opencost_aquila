@@ -8,20 +8,20 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/cloud/provider"
-	"github.com/opencost/opencost/pkg/customcost"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/provider"
+	"opencost/pkg/customcost"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/cors"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/version"
-	"github.com/opencost/opencost/pkg/costmodel"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/errors"
-	"github.com/opencost/opencost/pkg/filemanager"
-	"github.com/opencost/opencost/pkg/metrics"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/version"
+	"opencost/pkg/costmodel"
+	"opencost/pkg/env"
+	"opencost/pkg/errors"
+	"opencost/pkg/filemanager"
+	"opencost/pkg/metrics"
 )
 
 // CostModelOpts contain configuration options that can be passed to the Execute() method

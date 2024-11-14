@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/util/cloudutil"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/cloudutil"
+	"opencost/core/pkg/util/promutil"
 )
 
 // LabelConfig is a port of type AnalyzerConfig. We need to be more thoughtful

@@ -3,7 +3,7 @@ package cloudcost
 import (
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/mathutil"
+	"opencost/core/pkg/util/mathutil"
 )
 
 // View serves data to the Cloud Cost front end, in the

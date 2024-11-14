@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
 )
 
 // RepositoryQuerier is an implementation of Querier and ViewQuerier which pulls directly from a Repository

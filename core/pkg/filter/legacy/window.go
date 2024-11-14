@@ -3,8 +3,8 @@ package legacy
 //
 //import (
 //	"fmt"
-//	"github.com/opencost/opencost/pkg/kubecost"
-//	"github.com/opencost/opencost/pkg/log"
+//	"opencost/pkg/kubecost"
+//	"opencost/pkg/log"
 //)
 //
 //type Windowed interface {

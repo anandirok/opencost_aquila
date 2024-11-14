@@ -1,7 +1,7 @@
 package allocation
 
 import (
-	"github.com/opencost/opencost/core/pkg/filter/fieldstrings"
+	"opencost/core/pkg/filter/fieldstrings"
 )
 
 // AllocationField is an enum that represents Allocation-specific fields that can be

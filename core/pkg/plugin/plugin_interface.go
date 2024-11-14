@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hashicorp/go-plugin"
-	"github.com/opencost/opencost/core/pkg/model/pb"
+	"opencost/core/pkg/model/pb"
 	grpc "google.golang.org/grpc"
 )
 

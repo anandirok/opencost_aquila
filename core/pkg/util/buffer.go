@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/opencost/opencost/core/pkg/util/stringutil"
+	"opencost/core/pkg/util/stringutil"
 )
 
 // NonPrimitiveTypeError represents an error where the user provided a non-primitive data type for reading/writing

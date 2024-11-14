@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 func Test_Load_ResourceFallback(t *testing.T) {

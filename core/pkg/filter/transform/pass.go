@@ -3,7 +3,7 @@ package transform
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ast"
 )
 
 // CompilerPass is an interface which defines an implementation capable of

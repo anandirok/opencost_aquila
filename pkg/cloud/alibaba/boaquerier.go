@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"strings"
 
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/cloud"
+
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/bssopenapi"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/cloud"
 )
 
 const (
@@ -103,20 +104,20 @@ func GetBoaQueryInstanceBillFunc(fn func(bssopenapi.Item) error, billingDate str
 
 // SelectAlibabaCategory processes the Alibaba service to associated Kubecost category
 func SelectAlibabaCategory(item bssopenapi.Item) string {
-	if (item != bssopenapi.Item{}) {
-		// Provider ID has prefix "i-" for node in Alibaba
-		if strings.HasPrefix(item.InstanceID, boaIsNode) {
-			return opencost.ComputeCategory
-		}
-		// Provider ID for disk start with "d-" for storage type in Alibaba
-		if strings.HasPrefix(item.InstanceID, boaIsDisk) {
-			return opencost.StorageCategory
-		}
-		// Network has the highest priority and is based on the usage type of "piece" in Alibaba
-		if item.UsageUnit == boaIsNetwork {
-			return opencost.NetworkCategory
-		}
+	//if (item != bssopenapi.Item{}) {
+	// Provider ID has prefix "i-" for node in Alibaba
+	if strings.HasPrefix(item.InstanceID, boaIsNode) {
+		return opencost.ComputeCategory
 	}
+	// Provider ID for disk start with "d-" for storage type in Alibaba
+	if strings.HasPrefix(item.InstanceID, boaIsDisk) {
+		return opencost.StorageCategory
+	}
+	// Network has the highest priority and is based on the usage type of "piece" in Alibaba
+	if item.UsageUnit == boaIsNetwork {
+		return opencost.NetworkCategory
+	}
+	//}
 
 	// Alibaba CUR integration report has service lower case mostly unlike AWS
 	// TO-DO: Can investigate further product codes but bare minimal differentiation for start

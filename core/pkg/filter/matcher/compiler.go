@@ -3,9 +3,9 @@ package matcher
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
-	"github.com/opencost/opencost/core/pkg/filter/util"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/transform"
+	"opencost/core/pkg/filter/util"
 )
 
 // FieldMapper is the adapter which can fetch actual T instance data of type U

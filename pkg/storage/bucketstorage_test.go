@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/json"
 )
 
 // This suite of integration tests is meant to validate if an implementation of Storage that relies on a could

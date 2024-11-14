@@ -3,9 +3,9 @@ package customcost
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/mapper"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/mapper"
 )
 
 func ParseCustomCostTotalRequest(qp mapper.PrimitiveMap) (*CostTotalRequest, error) {

@@ -4,7 +4,7 @@
 package costmodel
 
 import (
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 	"sync"
 	"time"
 )

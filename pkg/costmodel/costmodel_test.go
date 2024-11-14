@@ -3,7 +3,7 @@ package costmodel
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/util"
+	"opencost/core/pkg/util"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

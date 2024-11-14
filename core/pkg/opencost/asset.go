@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	filter21 "github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	filter21 "opencost/core/pkg/filter"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/timeutil"
 )
 
 // UndefinedKey is used in composing Asset group keys if the group does not have that property defined.

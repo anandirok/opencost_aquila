@@ -13,10 +13,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 	"github.com/julienschmidt/httprouter"
-	"github.com/opencost/opencost/core/pkg/log"
-	ocplugin "github.com/opencost/opencost/core/pkg/plugin"
-	proto "github.com/opencost/opencost/core/pkg/protocol"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/log"
+	ocplugin "opencost/core/pkg/plugin"
+	proto "opencost/core/pkg/protocol"
+	"opencost/core/pkg/util/timeutil"
 )
 
 var protocol = proto.HTTP()

@@ -4,8 +4,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/pkg/storage"
+	"opencost/core/pkg/log"
+	"opencost/pkg/storage"
 )
 
 //--------------------------------------------------------------------------

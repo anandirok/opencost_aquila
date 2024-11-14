@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/pkg/env"
 
-	"github.com/opencost/opencost/core/pkg/clusters"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/retry"
-	"github.com/opencost/opencost/pkg/prom"
-	"github.com/opencost/opencost/pkg/thanos"
+	"opencost/core/pkg/clusters"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/retry"
+	"opencost/pkg/prom"
+	"opencost/pkg/thanos"
 
 	prometheus "github.com/prometheus/client_golang/api"
 )

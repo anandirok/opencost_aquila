@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/opencost/opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/json"
 )
 
 // TODO move everything below to a separate package

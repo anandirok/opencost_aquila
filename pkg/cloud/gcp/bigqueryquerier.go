@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/pkg/cloud"
 )
 
 type BigQueryQuerier struct {

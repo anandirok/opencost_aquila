@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud"
 )
 
 type S3Configuration struct {

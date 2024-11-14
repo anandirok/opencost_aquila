@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"

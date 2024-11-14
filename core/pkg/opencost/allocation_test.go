@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/ops"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ops"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/timeutil"
 )
 
 var filterParser = allocation.NewAllocationFilterParser()
@@ -2088,7 +2088,7 @@ func TestAllocationSet_insertMatchingWindow(t *testing.T) {
 }
 
 // This tests PARC accumulation. Assuming Node cost is $1 per core per hour
-// From https://github.com/opencost/opencost/pull/1867#discussion_r1174109388:
+// From https://opencost/pull/1867#discussion_r1174109388:
 // Over the span of hour 1:
 
 //     Pod 1 runs for 30 minutes, consuming 1 CPU while alive. PARC: 12.5% (0.5 core-hours / 4 available core-hours)

@@ -3,8 +3,8 @@ package costmodel
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
 )
 
 func TestScaleHourlyCostData(t *testing.T) {

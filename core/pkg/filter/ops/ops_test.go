@@ -3,10 +3,11 @@ package ops_test
 import (
 	"testing"
 
+	"opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ops"
+
 	"github.com/google/go-cmp/cmp"
-	"github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/ops"
 )
 
 func TestBasicOpsBuilder(t *testing.T) {

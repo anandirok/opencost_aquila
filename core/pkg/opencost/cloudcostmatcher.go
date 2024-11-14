@@ -3,10 +3,10 @@ package opencost
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	ccfilter "github.com/opencost/opencost/core/pkg/filter/cloudcost"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	"opencost/core/pkg/filter/ast"
+	ccfilter "opencost/core/pkg/filter/cloudcost"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/transform"
 )
 
 // CloudCostMatcher is a matcher implementation for CloudCost instances,

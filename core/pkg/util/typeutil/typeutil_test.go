@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/typeutil"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/typeutil"
 )
 
 type TestType struct{}
@@ -38,7 +38,7 @@ type InterfaceType interface{}
 var packageScoped = typeutil.CurrentPackage()
 
 func TestTypeOf(t *testing.T) {
-	const packageName = "github.com/opencost/opencost/core/pkg/util/typeutil_test"
+	const packageName = "opencost/core/pkg/util/typeutil_test"
 	const testTypeName = packageName + "/TestType"
 	const genericTestTypeName = packageName + "/GenericTestType"
 	const genericTypeParameterTypeName = packageName + ".GenericTestType"
@@ -85,9 +85,9 @@ func DeferredCurrentPackage() (result string) {
 }
 
 func TestPackageOf(t *testing.T) {
-	const currentPackageName = "github.com/opencost/opencost/core/pkg/util/typeutil_test"
+	const currentPackageName = "opencost/core/pkg/util/typeutil_test"
 	const jsonEncoderPackageName = "encoding/json"
-	const opencostPackageName = "github.com/opencost/opencost/core/pkg/opencost"
+	const opencostPackageName = "opencost/core/pkg/opencost"
 
 	cmp(t, typeutil.PackageOf[TestType](), currentPackageName)
 	cmp(t, typeutil.PackageOf[*TestType](), currentPackageName)
@@ -101,17 +101,17 @@ func TestPackageOf(t *testing.T) {
 
 	// Tests the CurrentPackage function within an instance function
 	// this will return something like:
-	// "github.com/opencost/opencost/core/pkg/util/typeutil_test.(*CurrentPackageTester).TestFromInstance"
+	// "opencost/core/pkg/util/typeutil_test.(*CurrentPackageTester).TestFromInstance"
 	new(CurrentPackageTester).TestFromInstance(t, currentPackageName)
 
 	// Tests the CurrentPackage function within an instance function that contains a nested anonymous function
 	// this will return something like:
-	// "github.com/opencost/opencost/core/pkg/util/typeutil_test.(*CurrentPackageTester).TestFromNestedInstance.func1"
+	// "opencost/core/pkg/util/typeutil_test.(*CurrentPackageTester).TestFromNestedInstance.func1"
 	new(CurrentPackageTester).TestFromNestedInstance(t, currentPackageName)
 
 	// This test the package scoped variable which calls the CurrentPackage function in the package scope
 	// this will normally return something like:
-	// "github.com/opencost/opencost/core/pkg/util/typeutil_test.init"
+	// "opencost/core/pkg/util/typeutil_test.init"
 	cmp(t, packageScoped, currentPackageName)
 
 	// PackageFor variants

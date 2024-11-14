@@ -5,7 +5,7 @@ package costmodel
 import (
 	"time"
 
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/pkg/prom"
 )
 
 // These implementations are placeholders to allow conditional compilation of

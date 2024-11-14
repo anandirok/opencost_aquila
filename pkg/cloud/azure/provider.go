@@ -21,16 +21,16 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/azure/auth"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/core/pkg/util/fileutil"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/cloud/utils"
-	"github.com/opencost/opencost/pkg/clustercache"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
+	"opencost/core/pkg/util/fileutil"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/timeutil"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/utils"
+	"opencost/pkg/clustercache"
+	"opencost/pkg/env"
 
 	v1 "k8s.io/api/core/v1"
 )
@@ -1036,7 +1036,7 @@ func convertMeterToPricings(info commerce.MeterInfo, regions map[string]string, 
 func addAzureFilePricing(prices map[string]*AzurePricing, regions map[string]string) {
 	// There is no easy way of supporting Standard Azure-File, because it's billed per used GB
 	// this will set the price to "0" as a workaround to not spam with `Persistent Volume pricing not found for` error
-	// check https://github.com/opencost/opencost/issues/159 for more information (same problem on AWS)
+	// check https://opencost/issues/159 for more information (same problem on AWS)
 	zeroPrice := "0.0"
 	for region := range regions {
 		key := region + "," + AzureFileStandardStorageClass

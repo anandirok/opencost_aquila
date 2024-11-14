@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/pkg/cloud/provider"
-	"github.com/opencost/opencost/pkg/config"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
+	"opencost/pkg/cloud/provider"
+	"opencost/pkg/config"
+	"opencost/pkg/prom"
 
 	"github.com/davecgh/go-spew/spew"
 )

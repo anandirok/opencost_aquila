@@ -3,9 +3,9 @@ package costmodel
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/env"
+	"opencost/pkg/prom"
 )
 
 type containerKey struct {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/fileutil"
-	"github.com/opencost/opencost/core/pkg/util/json"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/fileutil"
+	"opencost/core/pkg/util/json"
 
 	"sigs.k8s.io/yaml"
 )

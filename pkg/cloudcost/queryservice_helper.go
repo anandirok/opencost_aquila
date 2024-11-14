@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/filter/cloudcost"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/filter/cloudcost"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/httputil"
 )
 
 func ParseCloudCostRequest(qp httputil.QueryParams) (*QueryRequest, error) {

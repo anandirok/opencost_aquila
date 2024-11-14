@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util"
+	"opencost/core/pkg/util"
 )
 
 const (

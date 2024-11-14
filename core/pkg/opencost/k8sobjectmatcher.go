@@ -3,10 +3,10 @@ package opencost
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	kfilter "github.com/opencost/opencost/core/pkg/filter/k8sobject"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	"opencost/core/pkg/filter/ast"
+	kfilter "opencost/core/pkg/filter/k8sobject"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/transform"
 	appsv1 "k8s.io/api/apps/v1"
 	batchv1 "k8s.io/api/batch/v1"
 	corev1 "k8s.io/api/core/v1"

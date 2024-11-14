@@ -3,8 +3,8 @@ package opencost
 import (
 	"time"
 
-	filter "github.com/opencost/opencost/core/pkg/filter/legacy"
-	"github.com/opencost/opencost/core/pkg/log"
+	filter "opencost/core/pkg/filter/legacy"
+	"opencost/core/pkg/log"
 )
 
 // Coverage This is a placeholder struct which can be replaced by a more specific implementation later

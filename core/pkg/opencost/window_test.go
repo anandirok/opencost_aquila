@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/util/timeutil"
 
-	"github.com/opencost/opencost/core/pkg/env"
+	"opencost/core/pkg/env"
 )
 
 const (

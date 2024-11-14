@@ -3,7 +3,7 @@ package opencost
 import (
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/formatutil"
+	"opencost/core/pkg/util/formatutil"
 )
 
 type AllocationTotalsResponse struct {

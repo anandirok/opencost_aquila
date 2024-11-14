@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/util/json"
+	"opencost/core/pkg/util/timeutil"
 )
 
 func TestS3Integration_GetCloudCost(t *testing.T) {

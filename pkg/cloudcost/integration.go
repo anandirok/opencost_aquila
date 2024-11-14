@@ -3,13 +3,13 @@ package cloudcost
 import (
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/pkg/cloud"
-	"github.com/opencost/opencost/pkg/cloud/alibaba"
-	"github.com/opencost/opencost/pkg/cloud/aws"
-	"github.com/opencost/opencost/pkg/cloud/azure"
-	"github.com/opencost/opencost/pkg/cloud/gcp"
-	"github.com/opencost/opencost/pkg/cloud/oracle"
+	"opencost/core/pkg/opencost"
+	"opencost/pkg/cloud"
+	"opencost/pkg/cloud/alibaba"
+	"opencost/pkg/cloud/aws"
+	"opencost/pkg/cloud/azure"
+	"opencost/pkg/cloud/gcp"
+	"opencost/pkg/cloud/oracle"
 )
 
 // CloudCostIntegration is an interface for retrieving daily granularity CloudCost data for a given range

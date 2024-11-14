@@ -3,18 +3,18 @@ package filterutil
 import (
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/clusters"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/mapper"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
-	"github.com/opencost/opencost/core/pkg/util/typeutil"
+	"opencost/core/pkg/clusters"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/mapper"
+	"opencost/core/pkg/util/promutil"
+	"opencost/core/pkg/util/typeutil"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	afilter "github.com/opencost/opencost/core/pkg/filter/allocation"
-	assetfilter "github.com/opencost/opencost/core/pkg/filter/asset"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	cloudcostfilter "github.com/opencost/opencost/core/pkg/filter/cloudcost"
+	"opencost/core/pkg/filter"
+	afilter "opencost/core/pkg/filter/allocation"
+	assetfilter "opencost/core/pkg/filter/asset"
+	"opencost/core/pkg/filter/ast"
+	cloudcostfilter "opencost/core/pkg/filter/cloudcost"
 )
 
 // ============================================================================

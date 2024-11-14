@@ -3,9 +3,9 @@ package customcost
 import (
 	"fmt"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/transform"
 )
 
 func NewCustomCostMatchCompiler() *matcher.MatchCompiler[*CustomCost] {

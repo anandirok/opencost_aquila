@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud"
 )
 
 type BigQueryConfiguration struct {

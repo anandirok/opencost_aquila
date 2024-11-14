@@ -2,7 +2,7 @@
 
 This page contains a list of organizations who are users of OpenCost, following the [definitions provided by the CNCF](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter).
 
-If you would like to be included in this table, please submit a PR to this file or comment to [this issue](https://github.com/opencost/opencost/issues/1831) and your information will be added.
+If you would like to be included in this table, please submit a PR to this file or comment to [this issue](https://opencost/issues/1831) and your information will be added.
 
 ## Adopters
 

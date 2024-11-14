@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
 )
 
 //go:embed carbonlookupdata.csv

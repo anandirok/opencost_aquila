@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/log"
 )
 
 // StringMatcherFactory leverages a single StringFieldMapper[T] to generate instances of

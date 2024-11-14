@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 	"golang.org/x/exp/maps"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 // IntervalPoint describes a start or end of a window of time

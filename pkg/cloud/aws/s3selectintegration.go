@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
 )
 
 const S3SelectDateLayout = "2006-01-02T15:04:05Z"

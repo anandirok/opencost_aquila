@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencost/opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/models"
 )
 
 // 1 month = 744 hours by price list documentation.

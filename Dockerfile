@@ -28,8 +28,8 @@ RUN set -e ;\
     GOOS=linux \
     go build -a -installsuffix cgo \
     -ldflags \
-    "-X github.com/opencost/opencost/core/pkg/version.Version=${version} \
-    -X github.com/opencost/opencost/core/pkg/version.GitCommit=${commit}" \
+    "-X opencost/core/pkg/version.Version=${version} \
+    -X opencost/core/pkg/version.GitCommit=${commit}" \
     -o /go/bin/app
 
 FROM alpine:latest

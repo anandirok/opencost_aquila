@@ -3,7 +3,7 @@ package cloudcost
 import (
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 func DefaultMockCloudCostSet(start, end time.Time, provider, integration string) *opencost.CloudCostSet {

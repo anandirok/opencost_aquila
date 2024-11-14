@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	filter21 "github.com/opencost/opencost/core/pkg/filter"
+	filter21 "opencost/core/pkg/filter"
 )
 
 // Querier is an aggregate interface which has the ability to query each Kubecost store type

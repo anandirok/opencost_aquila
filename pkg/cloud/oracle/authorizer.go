@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/pkg/cloud"
 	"github.com/oracle/oci-go-sdk/v65/common"
 )
 

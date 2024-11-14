@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/pkg/cloud/models"
+	"opencost/core/pkg/log"
+	"opencost/pkg/cloud/models"
 	"github.com/patrickmn/go-cache"
 )
 

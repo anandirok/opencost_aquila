@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/timeutil"
+	"opencost/pkg/env"
 )
 
 type Querier interface {

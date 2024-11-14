@@ -1,7 +1,7 @@
 package k8sobject
 
 import (
-	"github.com/opencost/opencost/core/pkg/filter/fieldstrings"
+	"opencost/core/pkg/filter/fieldstrings"
 )
 
 // K8sObjectField is an enum that represents K8sObject-specific fields that can

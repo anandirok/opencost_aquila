@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/asset"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/cloudcost"
-	"github.com/opencost/opencost/core/pkg/filter/k8sobject"
-	"github.com/opencost/opencost/core/pkg/util/typeutil"
+	"opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/asset"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/cloudcost"
+	"opencost/core/pkg/filter/k8sobject"
+	"opencost/core/pkg/util/typeutil"
 )
 
 // keyFieldType is used to extract field, key, and field type

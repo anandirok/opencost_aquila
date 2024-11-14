@@ -7,17 +7,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/clusters"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/core/pkg/util/atomic"
-	"github.com/opencost/opencost/core/pkg/util/promutil"
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/clustercache"
-	"github.com/opencost/opencost/pkg/env"
-	"github.com/opencost/opencost/pkg/errors"
-	"github.com/opencost/opencost/pkg/metrics"
-	"github.com/opencost/opencost/pkg/prom"
+	"opencost/core/pkg/clusters"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util"
+	"opencost/core/pkg/util/atomic"
+	"opencost/core/pkg/util/promutil"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/clustercache"
+	"opencost/pkg/env"
+	"opencost/pkg/errors"
+	"opencost/pkg/metrics"
+	"opencost/pkg/prom"
 
 	promclient "github.com/prometheus/client_golang/api"
 	"github.com/prometheus/client_golang/prometheus"
@@ -536,7 +536,7 @@ func (cmme *CostModelMetricsEmitter) Start() bool {
 				const outlierFactor float64 = 30
 				// don't record cpuCost, ramCost, or gpuCost in the case of wild outliers
 				// k8s api sometimes causes cost spikes as described here:
-				// https://github.com/opencost/opencost/issues/927
+				// https://opencost/issues/927
 				cpuOutlierCutoff := outlierFactor * avgCosts.CpuCostAverage
 				if cpuCost < cpuOutlierCutoff {
 					cmme.CPUPriceRecorder.WithLabelValues(nodeName, nodeName, nodeType, nodeRegion, node.ProviderID, node.ArchType).Set(cpuCost)

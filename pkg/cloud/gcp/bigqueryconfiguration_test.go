@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud"
 )
 
 func TestBigQueryConfiguration_Validate(t *testing.T) {

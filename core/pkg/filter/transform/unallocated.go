@@ -1,6 +1,6 @@
 package transform
 
-import "github.com/opencost/opencost/core/pkg/filter/ast"
+import "opencost/core/pkg/filter/ast"
 
 const unallocatedSuffix = "__unallocated__"
 

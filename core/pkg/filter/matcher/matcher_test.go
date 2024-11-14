@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	"opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/transform"
 )
 
 // MatcherCompiler for Allocation instances providing functions which map identifers

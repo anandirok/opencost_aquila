@@ -3,11 +3,11 @@ package opencost
 import (
 	"fmt"
 
-	afilter "github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/ops"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	afilter "opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/ops"
+	"opencost/core/pkg/filter/transform"
 )
 
 // AllocationMatcher is a matcher implementation for Allocation instances,

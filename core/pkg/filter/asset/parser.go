@@ -1,6 +1,6 @@
 package asset
 
-import "github.com/opencost/opencost/core/pkg/filter/ast"
+import "opencost/core/pkg/filter/ast"
 
 // a slice of all the asset field instances the lexer should recognize as
 // valid left-hand comparators

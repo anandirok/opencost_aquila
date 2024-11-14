@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	legacyfilter "github.com/opencost/opencost/core/pkg/filter/legacy"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/filter/ast"
+	legacyfilter "opencost/core/pkg/filter/legacy"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/timeutil"
 )
 
 // CloudCost represents a CUR line item, identifying a cloud resource and

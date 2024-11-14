@@ -2,7 +2,7 @@
 
 Thanks for your help improving the OpenCost project! There are many ways to contribute to the project, including the following:
 
-* contributing or providing feedback on the [OpenCost Spec](https://github.com/opencost/opencost/tree/develop/spec)
+* contributing or providing feedback on the [OpenCost Spec](https://opencost/tree/develop/spec)
 * contributing documentation here or to the [OpenCost website](https://github.com/opencost/opencost-website)
 * joining the discussion in the [CNCF Slack](https://slack.cncf.io/) in the [#opencost](https://cloud-native.slack.com/archives/C03D56FPD4G) channel
 * keep up with community events using our [Calendar](https://bit.ly/opencost-calendar)
@@ -38,12 +38,12 @@ Dependencies:
 ### Build the backend
 
 1. `just build "<repo>/opencost:<tag>"`
-2. Edit the [pulled image](https://github.com/opencost/opencost/blob/develop/kubernetes/opencost.yaml#L145) in the `kubernetes/opencost.yaml` to `<repo>/opencost:<tag>`
-3. Set [this environment variable](https://github.com/opencost/opencost/blob/develop/kubernetes/opencost.yaml#L155) to the address of your Prometheus server
+2. Edit the [pulled image](https://opencost/blob/develop/kubernetes/opencost.yaml#L145) in the `kubernetes/opencost.yaml` to `<repo>/opencost:<tag>`
+3. Set [this environment variable](https://opencost/blob/develop/kubernetes/opencost.yaml#L155) to the address of your Prometheus server
 
 ### Build the frontend
 1. `cd ui && just build "<repo>/opencost-ui:<tag>"`
-2. Edit the [pulled image](https://github.com/opencost/opencost/blob/develop/kubernetes/opencost.yaml#L162) in the `kubernetes/opencost.yaml` to `<repo>/opencost-ui:<tag>`
+2. Edit the [pulled image](https://opencost/blob/develop/kubernetes/opencost.yaml#L162) in the `kubernetes/opencost.yaml` to `<repo>/opencost-ui:<tag>`
 
 ### Deploy to a cluster
 
@@ -123,12 +123,12 @@ Please reach us on [CNCF Slack](https://slack.cncf.io/) in the [#opencost](https
 The THIRD_PARTY_LICENSES.txt file should contain the up-to-date license, copyright, and notice information for dependencies used by Opencost.
 When adding, updating, or removing dependencies, please update the associate section(s) of the [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt) file. 
 
-For example, the `github.com/opencost/opencost/core` dependency contains the following third party attributions.
+For example, the `opencost/core` dependency contains the following third party attributions.
 The license associated with the SPDX identifier should also be included in the attributions file, if it is not already present.
 
 ```
 == Dependency
-github.com/opencost/opencost/core
+opencost/core
 
 == License Type
 SPDX:Apache-2.0

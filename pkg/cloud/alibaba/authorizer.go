@@ -5,8 +5,8 @@ import (
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud"
 )
 
 const AccessKeyAuthorizerType = "AlibabaAccessKey"

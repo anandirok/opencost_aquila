@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/util/httputil"
 	"go.opentelemetry.io/otel"
 )
 
-const tracerName = "github.com/opencost/opencost/pkg/customcost"
+const tracerName = "opencost/pkg/customcost"
 
 type QueryService struct {
 	Querier Querier

@@ -3,10 +3,10 @@ package filterutil
 import (
 	"reflect"
 
-	"github.com/opencost/opencost/core/pkg/filter/fieldstrings"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/mapper"
+	"opencost/core/pkg/filter/fieldstrings"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/mapper"
 )
 
 const (

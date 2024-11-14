@@ -3,8 +3,8 @@ package aws
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud"
 )
 
 func TestAuthorizerJSON_Sanitize(t *testing.T) {

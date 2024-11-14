@@ -3,8 +3,8 @@ package customcost
 import (
 	"testing"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/httputil"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/httputil"
 )
 
 // Test_ParseCustomCostRequest_Accumulate focuses on testing that both Custom Cost request parsing functions properly

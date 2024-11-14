@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 	"github.com/patrickmn/go-cache"
 )
 

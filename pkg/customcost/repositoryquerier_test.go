@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util/timeutil"
 )
 
 func TestGetCustomCostAccumulateOption(t *testing.T) {

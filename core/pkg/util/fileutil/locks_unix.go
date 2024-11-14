@@ -11,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 )
 
 // WriteLockedFD uses the flock() syscall to safely write to an open file as

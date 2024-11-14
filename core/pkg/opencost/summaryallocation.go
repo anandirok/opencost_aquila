@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/timeutil"
 )
 
 // SummaryAllocation summarizes an Allocation, keeping only fields necessary

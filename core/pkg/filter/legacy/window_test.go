@@ -1,7 +1,7 @@
 package legacy_test
 
 // import (
-// 	"github.com/opencost/opencost/pkg/kubecost"
+// 	"opencost/pkg/kubecost"
 // 	"testing"
 // 	"time"
 // )

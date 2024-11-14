@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/opencost"
 )
 
 // Querier allows for querying ranges of CloudCost data

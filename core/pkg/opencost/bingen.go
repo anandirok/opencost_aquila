@@ -72,4 +72,4 @@ package opencost
 // @bingen:generate:CloudCostLabels
 // @bingen:end
 
-//go:generate bingen -package=opencost -version=17 -buffer=github.com/opencost/opencost/core/pkg/util
+//go:generate bingen -package=opencost -version=17 -buffer=opencost/core/pkg/util

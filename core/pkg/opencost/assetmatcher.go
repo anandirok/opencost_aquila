@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	afilter "github.com/opencost/opencost/core/pkg/filter/asset"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/matcher"
-	"github.com/opencost/opencost/core/pkg/filter/transform"
+	afilter "opencost/core/pkg/filter/asset"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/matcher"
+	"opencost/core/pkg/filter/transform"
 )
 
 // AssetMatcher is a matcher implementation for Asset instances,

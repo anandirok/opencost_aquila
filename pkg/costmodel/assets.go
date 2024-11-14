@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
 )
 
 func (cm *CostModel) ComputeAssets(start, end time.Time) (*opencost.AssetSet, error) {

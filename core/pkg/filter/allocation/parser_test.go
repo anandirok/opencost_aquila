@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ast"
 )
 
 var parser ast.FilterParser = NewAllocationFilterParser()

@@ -5,17 +5,17 @@ import (
 	"io/ioutil"
 	"path"
 
-	"github.com/opencost/opencost/pkg/cloud"
-	"github.com/opencost/opencost/pkg/cloud/alibaba"
-	"github.com/opencost/opencost/pkg/cloud/aws"
-	"github.com/opencost/opencost/pkg/cloud/azure"
-	"github.com/opencost/opencost/pkg/cloud/gcp"
-	"github.com/opencost/opencost/pkg/cloud/models"
+	"opencost/pkg/cloud"
+	"opencost/pkg/cloud/alibaba"
+	"opencost/pkg/cloud/aws"
+	"opencost/pkg/cloud/azure"
+	"opencost/pkg/cloud/gcp"
+	"opencost/pkg/cloud/models"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/fileutil"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/fileutil"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/env"
 )
 
 const authSecretPath = "/var/secrets/service-key.json"

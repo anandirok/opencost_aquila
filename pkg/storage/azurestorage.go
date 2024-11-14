@@ -22,7 +22,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/bloberror"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
-	"github.com/opencost/opencost/core/pkg/log"
+	"opencost/core/pkg/log"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"

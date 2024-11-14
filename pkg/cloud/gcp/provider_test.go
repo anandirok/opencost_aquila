@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/google/martian/log"
-	"github.com/opencost/opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/models"
 )
 
 func TestParseGCPInstanceTypeLabel(t *testing.T) {

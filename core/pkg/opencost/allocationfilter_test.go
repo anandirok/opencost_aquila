@@ -3,10 +3,10 @@ package opencost
 import (
 	"testing"
 
-	filter21 "github.com/opencost/opencost/core/pkg/filter"
-	afilter "github.com/opencost/opencost/core/pkg/filter/allocation"
-	"github.com/opencost/opencost/core/pkg/filter/ast"
-	"github.com/opencost/opencost/core/pkg/filter/ops"
+	filter21 "opencost/core/pkg/filter"
+	afilter "opencost/core/pkg/filter/allocation"
+	"opencost/core/pkg/filter/ast"
+	"opencost/core/pkg/filter/ops"
 )
 
 func Test_AllocationFilterCondition_Matches(t *testing.T) {

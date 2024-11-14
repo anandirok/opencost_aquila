@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/filter"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/model/pb"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/filter"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/model/pb"
+	"opencost/core/pkg/opencost"
 )
 
 type CostType string

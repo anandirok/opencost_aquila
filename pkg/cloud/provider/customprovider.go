@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/opencost"
-	"github.com/opencost/opencost/core/pkg/util"
-	"github.com/opencost/opencost/core/pkg/util/json"
-	"github.com/opencost/opencost/pkg/cloud/models"
-	"github.com/opencost/opencost/pkg/cloud/utils"
-	"github.com/opencost/opencost/pkg/clustercache"
-	"github.com/opencost/opencost/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/opencost"
+	"opencost/core/pkg/util"
+	"opencost/core/pkg/util/json"
+	"opencost/pkg/cloud/models"
+	"opencost/pkg/cloud/utils"
+	"opencost/pkg/clustercache"
+	"opencost/pkg/env"
 
 	v1 "k8s.io/api/core/v1"
 )

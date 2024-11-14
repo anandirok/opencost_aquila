@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/worker"
+	"opencost/core/pkg/util/worker"
 )
 
 // slowAddTenToFloat simulates "work" -- it accepts an integer, adds 10, converts it to a float64,

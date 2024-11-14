@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 func TestGetIntervalPointsFromWindows(t *testing.T) {

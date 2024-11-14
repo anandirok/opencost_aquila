@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/clusters"
+	"opencost/core/pkg/clusters"
 
-	"github.com/opencost/opencost/pkg/cloud/provider"
-	"github.com/opencost/opencost/pkg/clustercache"
-	"github.com/opencost/opencost/pkg/config"
-	"github.com/opencost/opencost/pkg/costmodel"
+	"opencost/pkg/cloud/provider"
+	"opencost/pkg/clustercache"
+	"opencost/pkg/config"
+	"opencost/pkg/costmodel"
 
 	appsv1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"

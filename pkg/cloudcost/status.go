@@ -3,7 +3,7 @@ package cloudcost
 import (
 	"time"
 
-	cloudconfig "github.com/opencost/opencost/pkg/cloud"
+	cloudconfig "opencost/pkg/cloud"
 )
 
 // Status gives the details and metadata of a CloudCost integration

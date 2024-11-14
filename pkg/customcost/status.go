@@ -3,7 +3,7 @@ package customcost
 import (
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/opencost"
+	"opencost/core/pkg/opencost"
 )
 
 // Status gives the details and metadata of a CustomCost integration

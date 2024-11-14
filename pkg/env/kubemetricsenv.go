@@ -1,6 +1,6 @@
 package env
 
-import "github.com/opencost/opencost/core/pkg/env"
+import "opencost/core/pkg/env"
 
 const (
 	KubecostMetricsPodEnabledEnvVar = "KUBECOST_METRICS_POD_ENABLED"

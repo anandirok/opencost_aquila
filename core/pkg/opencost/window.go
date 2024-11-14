@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/env"
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/env"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/timeutil"
 )
 
 const (

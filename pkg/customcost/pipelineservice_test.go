@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/log"
-	"github.com/opencost/opencost/core/pkg/util/timeutil"
+	"opencost/core/pkg/log"
+	"opencost/core/pkg/util/timeutil"
 )
 
 func TestPipelineService(t *testing.T) {

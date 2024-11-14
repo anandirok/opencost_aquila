@@ -3,8 +3,8 @@ package legacy_test
 import (
 	"testing"
 
-	filter "github.com/opencost/opencost/core/pkg/filter/legacy"
-	"github.com/opencost/opencost/core/pkg/opencost"
+	filter "opencost/core/pkg/filter/legacy"
+	"opencost/core/pkg/opencost"
 )
 
 func Test_String_Matches(t *testing.T) {

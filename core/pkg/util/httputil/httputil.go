@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencost/opencost/core/pkg/util/mapper"
+	"opencost/core/pkg/util/mapper"
 )
 
 //--------------------------------------------------------------------------
